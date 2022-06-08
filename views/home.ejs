@@ -1,0 +1,47 @@
+<!--
+File: home.ejs
+Name: Purodhika Sharma
+Student ID: 301223212
+Date: 03-06-22
+-->
+<%- include partials/header.ejs %> 
+  
+<%- include partials/main_nav.ejs %>  
+   <!--background-->
+   
+    
+    <!-- Container element -->
+    <div class="parallax"></div>
+  <!--Main section-->
+  <main>
+    <body style="background-color:rgb(192, 236, 242);"></body>
+    <div class="jumbotron jumbotron-fluid" >
+      <div class="container">
+        <h1><center>
+            Bonjour!<br>
+            <small class="text-muted">Hello and Welcome!</small></center>
+          </h1> 
+      </div>
+    </div>
+
+<!--Mission Statement-->
+<div class="form-group">
+    <p class="lead"><center>
+        <h2><br>Who Am I?</h2><br>
+        I am Purodhika Sharma, an aspiring Software Engineer.<br> I build and design super-fun websites and codes.</p></div>  
+    </center></p>
+</div>
+
+<!--Button to about me page-->
+<p><h5><center><br>Wanna Know More?</h5></p>
+<form method="get" action="/about">
+    <center><button type="submit" class="btn btn-dark">Click Here</center></button>
+</form>
+</main>
+
+
+
+  <%- include partials/bottom_nav.ejs %> 
+  <%- include partials/footer.ejs %> 
+
+</html>

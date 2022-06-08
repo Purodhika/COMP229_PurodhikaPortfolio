@@ -1,0 +1,45 @@
+<!--
+File: contact.ejs
+Name: Purodhika Sharma
+Student ID: 301223212
+Date: 03-06-22
+-->
+<%- include partials/header.ejs %> 
+<%- include partials/main_nav.ejs %>  
+<main class="container";>
+    <h3> <center>Drop a Message Here!<center></h3>
+
+<!--Form to take message from user-->
+<form>
+    <div class="form-row">
+        <div class="form-group col-md-6">
+      <label for="inputFName">First Name</label>
+      <input type="text" class="form-control" id="inputFName" placeholder="First Name">
+    </div></div>
+   <br>
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <label for="inputLName">Last Name</label>
+        <input type="text" class="form-control" id="inputLName" placeholder="Last Name">
+      </div></div>
+      <br>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="inputEmail">Email</label>
+          <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+        </div>
+      </div><br>
+      <div class="form-group col-md-6">
+        <label for="inputMessage">Message</label>
+        <textArea rows="2" cols="100" class="form-control">
+      </textArea>
+        </div>
+    </div>
+    <br>
+<!--Submit button takes user back to home page on click-->
+    <input type="button" onclick="window.location.href = '/home';" value="Submit"/>
+    
+  </form>
+</main>
+  <%- include partials/bottom_nav.ejs %> 
+  <%- include partials/footer.ejs %> 
