@@ -1,9 +1,8 @@
-/*
-File: /routes/index.js
-Name: Purodhika Sharma
-Student ID: 301223212
-Date: 03-06-22
-*/
+// <!--
+// Name: Purodhika Sharma
+// Student ID: 301223212
+// Date: 26-06-22
+// -->
 
 let express = require('express');
 let router = express.Router();
